@@ -1,0 +1,8 @@
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\bin\Debug\Latihan2ClassdanObject.exe.config
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\bin\Debug\Latihan2ClassdanObject.exe
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\bin\Debug\Latihan2ClassdanObject.pdb
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\obj\Debug\Latihan2ClassdanObject.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\obj\Debug\Latihan2ClassdanObject.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\obj\Debug\Latihan2ClassdanObject.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\obj\Debug\Latihan2ClassdanObject.exe
+C:\Users\ASUS\source\repos\Latihan2ClassdanObject\Latihan2ClassdanObject\obj\Debug\Latihan2ClassdanObject.pdb
