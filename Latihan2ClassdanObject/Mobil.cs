@@ -1,33 +1,81 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Latihan2ClassdanObject
 {
-    internal class Mobil
+    public class Mobil
     {
-        public string warna;
-        public int JumlahPintu;
-        public string merek;
-        public string model;
-        public int TahunKeluar;
+        private string warna;
+        private string merek;
+        private string model;
+        private string kecepatan;
+        private int JumlahPintu;
+        private int TahunKeluar;
 
 
-        public void Gas(int kecepatan)
+
+        public string Warna
         {
-            Console.WriteLine("Mobil {0} berjalan dengan kecepatan {1}", model, kecepatan);
+            get
+            {
+                return warna;
+            }
+            set
+            {
+                warna = value;
+            }
         }
-
-        public void Klakson(string suara)
+        public int Jmlh
         {
-            Console.WriteLine("{0}", suara);
+            get
+            {
+                return JumlahPintu;
+            }
+            set
+            {
+                JumlahPintu = value;
+            }
         }
-
+        public string Merk
+        {
+            get { return merek; }
+            set
+            {
+                merek = value;
+            }
+        }
+        public string Model
+        {
+            get { return model; }
+            set
+            {
+                model = value;
+            }
+        }
+        public int Thn
+        {
+            get { return TahunKeluar; }
+            set
+            {
+                TahunKeluar = value;
+            }
+        }
+        public string Kecepatan
+        {
+            get { return kecepatan; }
+            set
+            {
+                kecepatan = value;
+            }
+            
+        }
         public void TampilkanInfo()
         {
-            Console.WriteLine("Mobil saya berwarna {0}, merek {1} model {2} keluaran tahun {3} dengan jumlah pintu sebanyak {4}", warna, merek, model, TahunKeluar, JumlahPintu);
+            Console.WriteLine("Mobil saya berwarna{0}, merk {1}, Model {2} Berjalan dengan kecepatan {3} Keluaran Tahun {4} Dengan Jumlah Pintu Sebanyak {5}", warna, merek, model, Kecepatan, TahunKeluar, JumlahPintu);
         }
 
     }
